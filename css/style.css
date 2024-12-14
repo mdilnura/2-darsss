@@ -1,0 +1,91 @@
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f4d04e;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #111111;
+  box-shadow: 8px 8px 0px 0px #000000;
+  margin: auto;
+  width: 38.4rem;
+  height: 52.2rem;
+  border-radius: 2rem;
+  margin-top: 21rem;
+  margin-bottom: 21rem;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+.card-container {
+  max-width: 33.6rem;
+  margin: auto;
+}
+.card__img {
+  background-color: #f4d04e;
+  width: 33.6rem;
+  height: 20rem;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+.card__wrapper {
+}
+.card__a {
+  width: 8.2rem;
+  height: 2.9rem;
+}
+.card__published {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.card__title {
+  font-weight: 800;
+  font-size: 2.4em;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 1.2rem;
+}
+.card__text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #7f7f7f;
+}
+.card__image {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.card__image__img {
+  object-fit: contain;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.card__image__title {
+  font-weight: 800;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #111111;
+}
